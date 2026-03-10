@@ -1,6 +1,6 @@
 import { useReducer, useEffect } from "react";
 
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:4000";
+const BASE_URL = "https://accomplished-vibrancy-production-7bc8.up.railway.app";
 
 const initialState = {
   students: [],
